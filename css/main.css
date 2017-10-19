@@ -1,0 +1,26 @@
+/*Utilizo un selector de tipo para darle color de fondo al elemento body*/
+body {
+
+  background-color: #94C286;
+
+}
+/*Utilizo un selector de clase para darle estilo al elemento div con atributo de clase cancha */
+.cancha {
+
+  height: 900px;
+
+  border: 7px solid #FFF;
+
+  margin-top: 25px;
+  margin-right: 12px;
+  margin-bottom: 18px;
+  margin-left: 15px;
+
+
+}
+/*.arco1 {
+
+  position: relative;
+
+}
+*/
