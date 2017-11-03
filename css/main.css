@@ -1,20 +1,31 @@
-/*Utilizo un selector de tipo para darle color de fondo al elemento body*/
+/*Estilos para la cancha*/
+
 body {
+  box-sizing: border-box;
+}
 
+/*Estilos para el contenedor grande*/
+
+#container {
   background-color: #94C286;
-
+  width: 60%;
+  height: 600px;
+  margin-top: 20px;
+  margin-left: 10px;
 }
-/*Utilizo un selector de clase para darle estilo al elemento div con atributo de clase cancha */
-.cancha {
 
-  height: 900px;
-  border: 7px solid #FFF;
-  margin-top: 25px;
-  margin-right: 12px;
-  margin-bottom: 18px;
-  margin-left: 15px;
+/*Estilos para el pequeño contenedor */
 
+#cancha {
+  background-color: #94C286;
+  width: 95%;
+  height: 90%;
+  border: 7px solid white;
+  position: relative;
+  top: 3.5%;
+  left: 1.7%;
 }
+
 /*.arco1 {
 
   position: relative;
