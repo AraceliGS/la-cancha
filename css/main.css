@@ -67,3 +67,36 @@ body {
   bottom: 28%;
   left: 38.5%;
 }
+
+/*Estilos para los 3 pelotas*/
+
+[id|=ball] {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: #FFF;
+}
+
+/*Estilo para la primera pelota*/
+
+#ball-one {
+  position: relative;
+  bottom: 130.3%;
+  left: 13.2%;
+}
+
+/*Estilo para la segunda pelota*/
+
+#ball-two {
+position: relative;
+bottom: 148%;
+left: 52%;
+}
+
+/*Estilo para la tercera pelota*/
+
+#ball-three {
+  position: relative;
+  bottom: 96%;
+  left: 82%;
+}
