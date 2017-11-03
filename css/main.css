@@ -50,8 +50,20 @@ body {
 .right {
   position: relative;
   left: 85%;
-  bottom: 160px;
+  bottom: 425px;
   border-top: 6px solid #FFF;
   border-bottom: 6px solid #FFF;
   border-left: 6px solid #FFF;
+}
+
+/*Estilos para el círculo central*/
+
+#circle {
+  border: 6px solid #FFF;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  position: relative;
+  bottom: 28%;
+  left: 38.5%;
 }
